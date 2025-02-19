@@ -11,7 +11,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
 // Back to Top button
 const backToTopButton = document.querySelector('.back-to-top');
 window.addEventListener('scroll', () => {
